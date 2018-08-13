@@ -1,0 +1,20 @@
+PODS:
+  - AndyCategory (1.0.6)
+  - Masonry (0.6.4)
+
+DEPENDENCIES:
+  - AndyCategory (~> 1.0.6)
+  - Masonry (~> 0.6.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AndyCategory
+    - Masonry
+
+SPEC CHECKSUMS:
+  AndyCategory: 3e82cc9f0e8492a18a883364d0d7d918cc2baff8
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+
+PODFILE CHECKSUM: 7930644ba116e1b3cfbaafb5f986acc5e9e7cc66
+
+COCOAPODS: 1.5.3

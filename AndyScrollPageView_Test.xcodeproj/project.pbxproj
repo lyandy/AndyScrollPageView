@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65008CA212199D1002C19C8 /* AndySegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008BA212199D1002C19C8 /* AndySegmentStyle.m */; };
+		B65008CB212199D1002C19C8 /* AndyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C0212199D1002C19C8 /* AndyTitleView.m */; };
+		B65008CC212199D1002C19C8 /* AndyScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C2212199D1002C19C8 /* AndyScrollPageView.m */; };
+		B65008CD212199D1002C19C8 /* AndyCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C3212199D1002C19C8 /* AndyCollectionView.m */; };
+		B65008CE212199D1002C19C8 /* AndyScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C6212199D1002C19C8 /* AndyScrollSegmentView.m */; };
+		B65008CF212199D1002C19C8 /* AndyContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C7212199D1002C19C8 /* AndyContentView.m */; };
+		B65008D0212199D1002C19C8 /* AndyScrollLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C8212199D1002C19C8 /* AndyScrollLineView.m */; };
+		B65008D1212199D1002C19C8 /* UIViewController+AndyScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65008C9212199D1002C19C8 /* UIViewController+AndyScrollPageController.m */; };
+		B67D94FB212188FA00ECAC3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D94FA212188FA00ECAC3A /* AppDelegate.m */; };
+		B67D94FE212188FB00ECAC3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D94FD212188FB00ECAC3A /* ViewController.m */; };
+		B67D9501212188FB00ECAC3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67D94FF212188FB00ECAC3A /* Main.storyboard */; };
+		B67D9503212188FB00ECAC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67D9502212188FB00ECAC3A /* Assets.xcassets */; };
+		B67D9506212188FB00ECAC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67D9504212188FB00ECAC3A /* LaunchScreen.storyboard */; };
+		B67D9509212188FB00ECAC3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D9508212188FB00ECAC3A /* main.m */; };
+		D6504D35C977B4075F8ECAF2 /* Pods_AndyScrollPageView_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2276A96C6FD5EC638F1D0DE6 /* Pods_AndyScrollPageView_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2276A96C6FD5EC638F1D0DE6 /* Pods_AndyScrollPageView_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndyScrollPageView_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65008B9212199D1002C19C8 /* AndyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyTitleView.h; sourceTree = "<group>"; };
+		B65008BA212199D1002C19C8 /* AndySegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndySegmentStyle.m; sourceTree = "<group>"; };
+		B65008BB212199D1002C19C8 /* AndyScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyScrollSegmentView.h; sourceTree = "<group>"; };
+		B65008BC212199D1002C19C8 /* AndyContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyContentView.h; sourceTree = "<group>"; };
+		B65008BD212199D1002C19C8 /* AndyScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyScrollPageView.h; sourceTree = "<group>"; };
+		B65008BE212199D1002C19C8 /* AndyCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyCollectionView.h; sourceTree = "<group>"; };
+		B65008BF212199D1002C19C8 /* AndyScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		B65008C0212199D1002C19C8 /* AndyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyTitleView.m; sourceTree = "<group>"; };
+		B65008C1212199D1002C19C8 /* UIViewController+AndyScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AndyScrollPageController.h"; sourceTree = "<group>"; };
+		B65008C2212199D1002C19C8 /* AndyScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyScrollPageView.m; sourceTree = "<group>"; };
+		B65008C3212199D1002C19C8 /* AndyCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyCollectionView.m; sourceTree = "<group>"; };
+		B65008C4212199D1002C19C8 /* AndyScrollLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyScrollLineView.h; sourceTree = "<group>"; };
+		B65008C5212199D1002C19C8 /* AndySegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndySegmentStyle.h; sourceTree = "<group>"; };
+		B65008C6212199D1002C19C8 /* AndyScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyScrollSegmentView.m; sourceTree = "<group>"; };
+		B65008C7212199D1002C19C8 /* AndyContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyContentView.m; sourceTree = "<group>"; };
+		B65008C8212199D1002C19C8 /* AndyScrollLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyScrollLineView.m; sourceTree = "<group>"; };
+		B65008C9212199D1002C19C8 /* UIViewController+AndyScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AndyScrollPageController.m"; sourceTree = "<group>"; };
+		B67D94F6212188FA00ECAC3A /* AndyScrollPageView_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndyScrollPageView_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67D94F9212188FA00ECAC3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B67D94FA212188FA00ECAC3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B67D94FC212188FA00ECAC3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B67D94FD212188FB00ECAC3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B67D9500212188FB00ECAC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67D9502212188FB00ECAC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67D9505212188FB00ECAC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B67D9507212188FB00ECAC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67D9508212188FB00ECAC3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D888B834D58B6471A0FB3138 /* Pods-AndyScrollPageView_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyScrollPageView_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-AndyScrollPageView_Test/Pods-AndyScrollPageView_Test.release.xcconfig"; sourceTree = "<group>"; };
+		EBCD1A4C6419CF42507AF70E /* Pods-AndyScrollPageView_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndyScrollPageView_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AndyScrollPageView_Test/Pods-AndyScrollPageView_Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B67D94F3212188FA00ECAC3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6504D35C977B4075F8ECAF2 /* Pods_AndyScrollPageView_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1203E66855EB091993F4D689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBCD1A4C6419CF42507AF70E /* Pods-AndyScrollPageView_Test.debug.xcconfig */,
+				D888B834D58B6471A0FB3138 /* Pods-AndyScrollPageView_Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65590CBE9EE8FBF235B64B06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2276A96C6FD5EC638F1D0DE6 /* Pods_AndyScrollPageView_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B67D94ED212188FA00ECAC3A = {
+			isa = PBXGroup;
+			children = (
+				B67D950F21218A5D00ECAC3A /* AndyScrollPageView */,
+				B67D94F8212188FA00ECAC3A /* AndyScrollPageView_Test */,
+				B67D94F7212188FA00ECAC3A /* Products */,
+				1203E66855EB091993F4D689 /* Pods */,
+				65590CBE9EE8FBF235B64B06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B67D94F7212188FA00ECAC3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67D94F6212188FA00ECAC3A /* AndyScrollPageView_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67D94F8212188FA00ECAC3A /* AndyScrollPageView_Test */ = {
+			isa = PBXGroup;
+			children = (
+				B67D94F9212188FA00ECAC3A /* AppDelegate.h */,
+				B67D94FA212188FA00ECAC3A /* AppDelegate.m */,
+				B67D94FC212188FA00ECAC3A /* ViewController.h */,
+				B67D94FD212188FB00ECAC3A /* ViewController.m */,
+				B67D94FF212188FB00ECAC3A /* Main.storyboard */,
+				B67D9502212188FB00ECAC3A /* Assets.xcassets */,
+				B67D9504212188FB00ECAC3A /* LaunchScreen.storyboard */,
+				B67D9507212188FB00ECAC3A /* Info.plist */,
+				B67D9508212188FB00ECAC3A /* main.m */,
+			);
+			path = AndyScrollPageView_Test;
+			sourceTree = "<group>";
+		};
+		B67D950F21218A5D00ECAC3A /* AndyScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				B67D951021218A5D00ECAC3A /* Classes */,
+			);
+			path = AndyScrollPageView;
+			sourceTree = "<group>";
+		};
+		B67D951021218A5D00ECAC3A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B65008BE212199D1002C19C8 /* AndyCollectionView.h */,
+				B65008C3212199D1002C19C8 /* AndyCollectionView.m */,
+				B65008BC212199D1002C19C8 /* AndyContentView.h */,
+				B65008C7212199D1002C19C8 /* AndyContentView.m */,
+				B65008C4212199D1002C19C8 /* AndyScrollLineView.h */,
+				B65008C8212199D1002C19C8 /* AndyScrollLineView.m */,
+				B65008BD212199D1002C19C8 /* AndyScrollPageView.h */,
+				B65008C2212199D1002C19C8 /* AndyScrollPageView.m */,
+				B65008BF212199D1002C19C8 /* AndyScrollPageViewDelegate.h */,
+				B65008BB212199D1002C19C8 /* AndyScrollSegmentView.h */,
+				B65008C6212199D1002C19C8 /* AndyScrollSegmentView.m */,
+				B65008C5212199D1002C19C8 /* AndySegmentStyle.h */,
+				B65008BA212199D1002C19C8 /* AndySegmentStyle.m */,
+				B65008B9212199D1002C19C8 /* AndyTitleView.h */,
+				B65008C0212199D1002C19C8 /* AndyTitleView.m */,
+				B65008C1212199D1002C19C8 /* UIViewController+AndyScrollPageController.h */,
+				B65008C9212199D1002C19C8 /* UIViewController+AndyScrollPageController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B67D94F5212188FA00ECAC3A /* AndyScrollPageView_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67D950C212188FB00ECAC3A /* Build configuration list for PBXNativeTarget "AndyScrollPageView_Test" */;
+			buildPhases = (
+				65518A99C50159C60DD00E8B /* [CP] Check Pods Manifest.lock */,
+				B67D94F2212188FA00ECAC3A /* Sources */,
+				B67D94F3212188FA00ECAC3A /* Frameworks */,
+				B67D94F4212188FA00ECAC3A /* Resources */,
+				35F62FE276D1D446F6C943E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndyScrollPageView_Test;
+			productName = AndyScrollPageView_Test;
+			productReference = B67D94F6212188FA00ECAC3A /* AndyScrollPageView_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67D94EE212188FA00ECAC3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李扬";
+				TargetAttributes = {
+					B67D94F5212188FA00ECAC3A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B67D94F1212188FA00ECAC3A /* Build configuration list for PBXProject "AndyScrollPageView_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B67D94ED212188FA00ECAC3A;
+			productRefGroup = B67D94F7212188FA00ECAC3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67D94F5212188FA00ECAC3A /* AndyScrollPageView_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B67D94F4212188FA00ECAC3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67D9506212188FB00ECAC3A /* LaunchScreen.storyboard in Resources */,
+				B67D9503212188FB00ECAC3A /* Assets.xcassets in Resources */,
+				B67D9501212188FB00ECAC3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F62FE276D1D446F6C943E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AndyScrollPageView_Test/Pods-AndyScrollPageView_Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AndyCategory/AndyCategory.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AndyCategory.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AndyScrollPageView_Test/Pods-AndyScrollPageView_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65518A99C50159C60DD00E8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndyScrollPageView_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B67D94F2212188FA00ECAC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67D94FE212188FB00ECAC3A /* ViewController.m in Sources */,
+				B65008CB212199D1002C19C8 /* AndyTitleView.m in Sources */,
+				B65008CC212199D1002C19C8 /* AndyScrollPageView.m in Sources */,
+				B65008D0212199D1002C19C8 /* AndyScrollLineView.m in Sources */,
+				B65008CE212199D1002C19C8 /* AndyScrollSegmentView.m in Sources */,
+				B65008CD212199D1002C19C8 /* AndyCollectionView.m in Sources */,
+				B65008CA212199D1002C19C8 /* AndySegmentStyle.m in Sources */,
+				B65008CF212199D1002C19C8 /* AndyContentView.m in Sources */,
+				B67D9509212188FB00ECAC3A /* main.m in Sources */,
+				B65008D1212199D1002C19C8 /* UIViewController+AndyScrollPageController.m in Sources */,
+				B67D94FB212188FA00ECAC3A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B67D94FF212188FB00ECAC3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67D9500212188FB00ECAC3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B67D9504212188FB00ECAC3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67D9505212188FB00ECAC3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B67D950A212188FB00ECAC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B67D950B212188FB00ECAC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B67D950D212188FB00ECAC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCD1A4C6419CF42507AF70E /* Pods-AndyScrollPageView_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3954NS6ZG;
+				INFOPLIST_FILE = AndyScrollPageView_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy.andy.AndyScrollPageView-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67D950E212188FB00ECAC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D888B834D58B6471A0FB3138 /* Pods-AndyScrollPageView_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3954NS6ZG;
+				INFOPLIST_FILE = AndyScrollPageView_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy.andy.AndyScrollPageView-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B67D94F1212188FA00ECAC3A /* Build configuration list for PBXProject "AndyScrollPageView_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67D950A212188FB00ECAC3A /* Debug */,
+				B67D950B212188FB00ECAC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67D950C212188FB00ECAC3A /* Build configuration list for PBXNativeTarget "AndyScrollPageView_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67D950D212188FB00ECAC3A /* Debug */,
+				B67D950E212188FB00ECAC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B67D94EE212188FA00ECAC3A /* Project object */;
+}

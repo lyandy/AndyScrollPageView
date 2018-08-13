@@ -1,0 +1,6 @@
+framework module AndyCategory {
+  umbrella header "AndyCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
